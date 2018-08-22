@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package testProject;
+import common.CommonFuntion;
+import common.CommonCurd;
+
+/**
+ * @author Administrator
+ *
+ */
+public class MainClass {
+	
+	private static CommonFuntion common;
+	private static CommonCurd curd;
+	/**
+	 * 
+	 */
+	public static MainClass() {
+		// TODO Auto-generated constructor stub
+		common = CommonFuntion.getInstance();
+		curd   = new CommonCurd();
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println(CommonFuntion.getInstance());
+		// TODO Auto-generated method stub
+//		System.out.println("You are stupid!!!!");
+//		Integer age = common.getAge(20);
+//		System.out.println(age);
+//		String name = common.getName("Alpha");
+//		System.out.println(name);
+//		int[] data = {1,2,3,4};
+//		Boolean addre = curd.add(data);
+//		System.out.println(addre);
+	}
+
+}

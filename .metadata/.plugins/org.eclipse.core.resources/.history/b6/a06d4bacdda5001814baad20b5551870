@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package common;
+
+import java.lang.reflect.Array;
+
+/**
+ * @author Administrator
+ *
+ */
+public class CommonCurd {
+
+	/**
+	 * 
+	 */
+	public CommonCurd() {
+		// TODO Auto-generated constructor stub
+	}
+		
+	/**
+	 * 添加函数
+	 * @param data
+	 * @return
+	 */
+	public Boolean add(Array data){
+		return true;
+	}
+	
+	/**
+	 * 查询函数
+	 * @param where
+	 * @param field
+	 * @return
+	 */
+	public Array select(Array where, String field){
+		return [];
+	}
+}

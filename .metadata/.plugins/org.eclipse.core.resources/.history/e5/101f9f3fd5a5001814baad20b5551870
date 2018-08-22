@@ -1,0 +1,13 @@
+package testProject;
+
+public class CommonFuntion {
+
+	public CommonFuntion() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Integer getAge(Integer age){
+		
+	}
+
+}

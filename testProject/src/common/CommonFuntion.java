@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package common;
+
+/**
+ * @author Administrator
+ *
+ */
+public class CommonFuntion {
+	private static CommonFuntion instance = new CommonFuntion();
+	//构造方法
+	private CommonFuntion(){
+	}
+	
+	public static CommonFuntion getInstance(){
+		return instance;
+	}
+	
+	/**
+	 * 和获取年龄
+	 * @param age
+	 * @return
+	 */
+	public Integer getAge(int age){
+		return age;
+	}
+	
+	/**
+	 * 获取姓名
+	 * @param name
+	 * @return
+	 */
+	public String getName(String name){
+		return name;
+	}
+}

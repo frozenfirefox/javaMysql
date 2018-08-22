@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package common;
+
+import java.lang.reflect.Array;
+
+/**
+ * @author Administrator
+ *
+ */
+public class CommonCurd {
+
+	/**
+	 * 
+	 */
+	public CommonCurd() {
+		// TODO Auto-generated constructor stub
+	}
+		
+	/**
+	 * Ìí¼Óº¯Êý
+	 * @param data
+	 * @return
+	 */
+	public Boolean add(Array data){
+		return true;
+	}
+}

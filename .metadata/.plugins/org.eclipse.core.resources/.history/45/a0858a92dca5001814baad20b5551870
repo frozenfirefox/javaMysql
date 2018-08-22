@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package common;
+
+/**
+ * @author Administrator
+ *
+ */
+public class CommonFuntion {
+
+	/**
+	 * 
+	 */
+	public CommonFuntion() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

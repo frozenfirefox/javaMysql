@@ -1,0 +1,18 @@
+package testProject;
+
+public class CommonFuntion {
+
+	public CommonFuntion() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	/**
+	 * 和获取年龄
+	 * @param age
+	 * @return
+	 */
+	public Integer getAge(Integer age){
+		return age;
+	}
+
+}

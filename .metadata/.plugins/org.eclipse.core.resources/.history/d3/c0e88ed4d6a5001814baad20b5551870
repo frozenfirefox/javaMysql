@@ -1,0 +1,29 @@
+package testProject;
+
+public class CommonFuntion {
+	private Integer age;
+	private String name;
+	
+	public CommonFuntion(Integer age, String name) {
+		this.age = age;
+		this.name = name;
+	}
+	
+	/**
+	 * 和获取年龄
+	 * @param age
+	 * @return
+	 */
+	public Integer getAge(){
+		return this.age;
+	}
+	
+	/**
+	 * 获取姓名
+	 * @param name
+	 * @return
+	 */
+	public String getName(String name){
+		return name;
+	}
+}
